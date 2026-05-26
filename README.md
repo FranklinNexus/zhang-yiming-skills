@@ -8,6 +8,10 @@
 [![Runtime](https://img.shields.io/badge/Runtime-Cursor%20%7C%20Claude%20%7C%20Antigravity-lightgrey)](https://github.com/FranklinNexus/zhang-yiming-skills)
 [![Focus](https://img.shields.io/badge/Focus-Product%20%7C%20Org%20%7C%20Rationality-orange)](PRINCIPLES.md)
 
+<p align="center">
+  <img src="assets/zhang-yiming.jpg" alt="Zhang Yiming / 张一鸣" width="360" />
+</p>
+
 <br>
 
 **张一鸣式的产品与组织操作系统。不是成功学摘录，是可运行的理性决策框架。**
@@ -17,9 +21,26 @@
 把 **用户价值 · 范式变化 · 延迟满足 · 数据校正直觉 · 组织信息流** 封装成 Agent Skill，  
 帮你在「竞品焦虑」「虚荣指标」「情绪化决策」里回到该做什么、怎么建系统。
 
-[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [边界说明](#边界说明)
+[为什么更好](#为什么这套-skills-更好) · [看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [FAQ](#faq)
 
 </div>
+
+---
+
+## 为什么这套 Skills 更好
+
+网上也能找到「张一鸣语录 / 字节方法论」类 Skill，但多数是**摘抄或气质模仿**。  
+**ZYM.skill** 专注 **决策结构**：
+
+| 场景 | 本仓库会逼问什么 |
+| --- | --- |
+| 竞品发功能 | 用户真的变好了吗？跟进的代价是什么？ |
+| 数据好看 | 哪些是行为指标，哪些是虚荣指标？ |
+| 组织变慢 | 信息流哪里堵了？哪些决定该下放？ |
+| 个人成长 | 延迟满足是否在「主动准备」，而非拖延？ |
+
+输出固定为：**张一鸣式判断 → 关键变量 → 可能误区 → 下一步**。  
+配合 `PLAYBOOK.md` 做产品/组织/理性决策路由，**不扮演张一鸣本人**。
 
 ---
 
@@ -151,6 +172,14 @@ cd zhang-yiming-skills
 | [paul-graham-skills](https://github.com/FranklinNexus/paul-graham-skills) |
 | [sam-altman-skills](https://github.com/FranklinNexus/sam-altman-skills) |
 | **zhang-yiming-skills（本仓库）** |
+
+---
+
+## FAQ
+
+### Contributors 显示 Cursor Agent？
+
+历史 commit 曾被 Cursor 自动加上 `Co-authored-by: Cursor <cursoragent@cursor.com>`，GitHub 据此统计第二贡献者；**已从 git 历史删除**。API 现仅 `FranklinNexus`。页面未更新请 **Ctrl+Shift+R** 硬刷新。
 
 ---
 
