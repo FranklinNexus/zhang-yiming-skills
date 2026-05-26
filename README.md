@@ -147,13 +147,6 @@ cd zhang-yiming-skills
 
 ---
 
-## FAQ
-
-### Contributors 显示 Cursor Agent？
-
-历史 commit 曾被 Cursor 自动加上 `Co-authored-by: Cursor <cursoragent@cursor.com>`，GitHub 据此统计第二贡献者；**已从 git 历史删除**。API 现仅 `FranklinNexus`。页面未更新请 **Ctrl+Shift+R** 硬刷新。
-
----
 
 ## 边界说明
 
