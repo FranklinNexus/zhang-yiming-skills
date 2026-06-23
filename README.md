@@ -151,9 +151,9 @@ cd zhang-yiming-skills
 ## 参考语料
 
 本仓库是 **张一鸣公开材料的行为蒸馏**，不是全文库。  
-中文译文见 [PG · Sam · 张一鸣中文译文库 → `zhang-yiming/`](https://github.com/FranklinNexus/founder-blog-zh/tree/main/zhang-yiming)（仅张一鸣；与 PG、Sam 分目录）。  
+中文译文见 [PG · Sam · 张一鸣中文译文库 → `zhang-yiming/`](https://github.com/FranklinNexus/founder-blog-zh/tree/main/zhang-yiming)（**19** 篇 `ZYM_*` + **8** 篇飞书 `FS_*`，已去重汇编/合集）。  
 另附 **[张一鸣推荐书单](https://github.com/FranklinNexus/founder-blog-zh/blob/main/zhang-yiming/%E5%BC%A0%E4%B8%80%E9%B8%A3%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95.md)**。  
-均为**互联网上的公开记录**；说明见 [NOTICE.md](https://github.com/FranklinNexus/founder-blog-zh/blob/main/NOTICE.md)。
+Obsidian 源：`30_Library/博客/张一鸣/`。均为**互联网上的公开记录**；说明见 [NOTICE.md](https://github.com/FranklinNexus/founder-blog-zh/blob/main/NOTICE.md)。
 
 ---
 
