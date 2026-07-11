@@ -1,5 +1,5 @@
 param(
-    [ValidateSet("cursor", "claude", "antigravity", "all")]
+    [ValidateSet("codex", "cursor", "claude", "antigravity", "all")]
     [string[]]$Platform = @("cursor", "claude"),
 
     [ValidateSet("personal", "project")]
@@ -71,10 +71,15 @@ function Add-ManagedBlock {
 }
 
 if ($Platform -contains "all") {
-    $Platform = @("cursor", "claude", "antigravity")
+    $Platform = @("codex", "cursor", "claude", "antigravity")
 }
 
 foreach ($p in $Platform) {
+    if ($p -eq "codex") {
+        $root = if ($Scope -eq "personal") { "$env:USERPROFILE\.codex\skills" } else { Join-Path $ProjectPath ".codex\skills" }
+        Install-JunctionSkill -DestinationRoot $root
+    }
+
     if ($p -eq "cursor") {
         $root = if ($Scope -eq "personal") { "$env:USERPROFILE\.cursor\skills" } else { Join-Path $ProjectPath ".cursor\skills" }
         Install-JunctionSkill -DestinationRoot $root

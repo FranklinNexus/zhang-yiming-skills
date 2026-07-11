@@ -5,7 +5,7 @@
 > _"先想清楚，再用力。竞争是背景，用户价值才是中心。"_
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-blue)](https://github.com/FranklinNexus/zhang-yiming-skills)
-[![Runtime](https://img.shields.io/badge/Runtime-Cursor%20%7C%20Claude%20%7C%20Antigravity-lightgrey)](https://github.com/FranklinNexus/zhang-yiming-skills)
+[![Runtime](https://img.shields.io/badge/Runtime-Codex%20%7C%20Cursor%20%7C%20Claude%20%7C%20Antigravity-lightgrey)](https://github.com/FranklinNexus/zhang-yiming-skills)
 [![Focus](https://img.shields.io/badge/Focus-Product%20%7C%20Org%20%7C%20Rationality-orange)](PRINCIPLES.md)
 
 <p align="center">
@@ -83,6 +83,18 @@ ZYM 式判断 ❯  慢，通常是信息流坏了，不是人不够努力。
 
 ## 安装
 
+### Codex（推荐）
+
+让 Codex 直接从 GitHub 安装本仓库中的 skill，或在克隆后运行：
+
+```powershell
+.\scripts\install.ps1 -Platform codex
+```
+
+安装目标为 `~/.codex/skills/`。重启 Codex 后生效。
+
+### 其他 Agent Runtime
+
 ```powershell
 git clone https://github.com/FranklinNexus/zhang-yiming-skills.git
 cd zhang-yiming-skills
@@ -151,9 +163,9 @@ cd zhang-yiming-skills
 ## 参考语料
 
 本仓库是 **张一鸣公开材料的行为蒸馏**，不是全文库。  
-中文译文见 [PG · Sam · 张一鸣中文译文库 → `zhang-yiming/`](https://github.com/FranklinNexus/founder-blog-zh/tree/main/zhang-yiming)（**19** 篇 `ZYM_*` + **8** 篇飞书 `FS_*`，已去重汇编/合集）。  
-另附 **[张一鸣推荐书单](https://github.com/FranklinNexus/founder-blog-zh/blob/main/zhang-yiming/%E5%BC%A0%E4%B8%80%E9%B8%A3%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95.md)**。  
-Obsidian 源：`30_Library/博客/张一鸣/`。均为**互联网上的公开记录**；说明见 [NOTICE.md](https://github.com/FranklinNexus/founder-blog-zh/blob/main/NOTICE.md)。
+中文译文见 [PG · Sam · 张一鸣中文译文库 → `zhang-yiming/`](https://github.com/FranklinNexus/pg-sam-zym-blog-zh/tree/main/zhang-yiming)（**19** 篇 `ZYM_*` + **8** 篇飞书整理）。
+另附 **[张一鸣推荐书单](https://github.com/FranklinNexus/pg-sam-zym-blog-zh/blob/main/zhang-yiming/%E5%BC%A0%E4%B8%80%E9%B8%A3%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95.md)**。
+均为**互联网上的公开记录**；说明见 [NOTICE.md](https://github.com/FranklinNexus/pg-sam-zym-blog-zh/blob/main/NOTICE.md)。
 
 ---
 

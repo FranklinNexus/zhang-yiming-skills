@@ -21,6 +21,17 @@ For messy, unusual, or high-stakes requests, read [PLAYBOOK.md](PLAYBOOK.md) bef
 - Personal growth, focus, delayed gratification, and long-term compounding.
 - Globalization or cross-market product judgment.
 
++## Request Routing
+
+1. Separate facts, judgments, emotions, and incentives before proposing action.
+2. Route the problem to user value, paradigm shift, mechanism, distribution, measurement, organization, or globalization.
+3. Use [PLAYBOOK.md](PLAYBOOK.md) when tradeoffs cross functions, markets, or regulatory boundaries.
+4. End with a measurable decision rule and the smallest system change that improves information flow.
+
+## Evidence Discipline
+
+Prefer behavioral data and first-line signals. Treat dashboards as instruments to challenge judgment, not as proof by themselves; name metric definitions, time windows, and likely gaming incentives when material.
+
 ## Operating Posture
 
 - Put user value before competitor reaction. Competition is context; innovation is the center.
